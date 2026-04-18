@@ -34,9 +34,11 @@ const HeroSection = () => {
             — all in one place.
           </h6>
 
-          <button className="mt-5 px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-200 transition pointer-events-auto">
-            Get Started
-          </button>
+          <a href="https://billing-software-pro.vercel.app/" target="_blank">
+            <button className="mt-5 px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-200 transition pointer-events-auto">
+              Get Started
+            </button>
+          </a>
         </div>
       </div>
     </div>
