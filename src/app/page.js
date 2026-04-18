@@ -5,7 +5,7 @@ import WhyChooseUs from "./components/WhyChoose";
 
 export default function Home() {
   return (
-    <div className="bg-banner">
+    <div >
      <Hero/>
      <WhyChooseUs/>
      <Features/>

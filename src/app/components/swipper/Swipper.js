@@ -15,7 +15,6 @@ import {
   FreeMode,
 } from "swiper/modules";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Swipper({
   data,
@@ -66,19 +65,13 @@ export default function Swipper({
 
             {/* Content Section */}
             {d.title && (
-              <div className="p-5 text-center">
-                <h2 className="text-lg font-semibold text-gray-800">
+              <div className="p-5 text-center color-primary">
+                <h2 className="text-lg font-semibold ">
                   {d.title}
                 </h2>
 
-                <p className="text-sm text-gray-500 mt-2">{d.para}</p>
+                <p className="text-sm mt-2">{d.para}</p>
 
-                <Link
-                  href={"#"}
-                  className="inline-block mt-4 text-sm font-medium text-blue-600 hover:text-blue-800 transition"
-                >
-                  Learn More →
-                </Link>
               </div>
             )}
           </div>

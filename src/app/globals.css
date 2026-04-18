@@ -6,16 +6,30 @@ html {
   --primary-gradient: linear-gradient(90deg, #a770ef, #cf8bf3, #fdb99b);
 }
 .bg-banner {
-  background-image: url('./assets/banner-img.png');
+  background-image: url("./assets/bg-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.primary-text {
-  background: linear-gradient(90deg, #a770ef, #cf8bf3, #fdb99b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.bg-primary-color {
+  background-color: #f9f3fe;
+}
+.color-primary {
+  color: #49326b;
+}
+.color-secondary {
+  color: #f9f3fe;
+}
+.icon-style {
+    color: #fff;
+    background-color: #49326b;
+    border-radius: 32%;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
 }
 
 .login-btn {
@@ -55,13 +69,11 @@ html {
     transform: scale(1);
   }
 }
-
 .why-choose-box {
   border: 1px solid transparent;
   border-radius: 20px;
-  background: linear-gradient(90deg, #3a6186, #89253e);
+  background: #fff;
   padding: 10px;
-  color: white;
   height: 150px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -69,7 +81,11 @@ html {
 
 .why-choose-box:hover {
   transform: scale(1.05);
-  background-color: black;
-  color: white;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-highlight:hover {
+  background-color: #49326b;
+  border-radius: 10px;
+  color: #f9f3fe !important;
 }

@@ -27,7 +27,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50/30 min-h-screen px-4 md:px-10 lg:px-20 py-12 font-sans">
+    <div className="bg-primary-color bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50/30 min-h-screen px-4 md:px-10 lg:px-20 py-12 font-sans">
       {/* Decorative background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"></div>
