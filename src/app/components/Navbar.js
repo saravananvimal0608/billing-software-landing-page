@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white px-6 py-4 flex justify-between items-center shadow-[0_4px_20px_rgba(0,0,0,0.08)] sticky top-0 z-50">
+      <nav className="bg-primary-color px-6 py-4 flex justify-between items-center shadow-[0_4px_20px_rgba(0,0,0,0.08)] sticky top-0 z-50">
         {/* Logo */}
         <Image
           src={icon}
