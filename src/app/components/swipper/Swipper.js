@@ -21,7 +21,7 @@ export default function Swipper({
   imgHeight,
   freeMode = false,
   slidesPerView = 1,
-  border=false
+  border = false,
 }) {
   return (
     <Swiper
@@ -53,25 +53,20 @@ export default function Swipper({
     >
       {data?.map((d, index) => (
         <SwiperSlide key={index}>
-          {/* Card Container */}
-          <div className={`bg-white shadow-md hover:shadow-xl transition duration-300 overflow-hidden ${border && "rounded-2xl"}`}>
-            {/* Image Section */}
+          <div
+            className={`bg-white shadow-md hover:shadow-xl transition duration-300 overflow-hidden ${border && "rounded-2xl"}`}
+          >
             <div style={{ height: imgHeight }} className="relative">
               <Image src={d?.img} alt={d?.alt} fill className="object-cover" />
 
-              {/* Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             </div>
 
-            {/* Content Section */}
             {d.title && (
               <div className="p-5 text-center color-primary">
-                <h2 className="text-lg font-semibold ">
-                  {d.title}
-                </h2>
+                <h2 className="text-lg font-semibold ">{d.title}</h2>
 
                 <p className="text-sm mt-2">{d.para}</p>
-
               </div>
             )}
           </div>

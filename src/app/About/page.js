@@ -27,7 +27,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className="bg-primary-color bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50/30 min-h-screen px-4 md:px-10 lg:px-20 py-12 font-sans">
+    <div className="bg-primary-color bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50/30 min-h-screen px-4 md:px-10 lg:px-20 py-12 font-sans color-primary">
       {/* Decorative background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"></div>
@@ -39,11 +39,11 @@ const About = () => {
         <div className="inline-flex items-center justify-center p-3 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl shadow-lg mb-5">
           <FaInfoCircle className="w-8 h-8 text-white" />
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r  bg-clip-text ">
           About Us
         </h1>
         <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full mx-auto mt-4 mb-4"></div>
-        <p className="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">
+        <p className=" text-lg max-w-2xl mx-auto leading-relaxed">
           Discover the story behind our billing management system, built to
           simplify billing, improve sales tracking, and help small shop owners
           manage their business operations efficiently.
@@ -56,9 +56,9 @@ const About = () => {
           <div className="p-2 bg-blue-100 rounded-xl">
             <FaBookOpen className="w-6 h-6 text-blue-600" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800">Our Story</h2>
+          <h2 className="text-2xl font-bold ">Our Story</h2>
         </div>
-        <p className="text-gray-700 leading-relaxed text-base md:text-lg">
+        <p className=" leading-relaxed text-base md:text-lg">
           The Billing Management System was developed in 2026 to solve a common
           challenge faced by small shop owners — managing billing using
           traditional calculators and manual methods. These outdated approaches
@@ -81,9 +81,9 @@ const About = () => {
             <div className="p-2 bg-emerald-100 rounded-xl">
               <FaRocket className="w-6 h-6 text-emerald-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-800">Our Mission</h2>
+            <h2 className="text-2xl font-bold ">Our Mission</h2>
           </div>
-          <p className="text-gray-700 leading-relaxed text-base">
+          <p className=" leading-relaxed text-base">
             Our vision is to make digital billing accessible for small
             businesses by providing a user-friendly system that simplifies
             operations and supports better sales tracking and decision-making.
@@ -96,9 +96,9 @@ const About = () => {
             <div className="p-2 bg-purple-100 rounded-xl">
               <FaEye className="w-6 h-6 text-purple-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-800">Our Vision</h2>
+            <h2 className="text-2xl font-bold ">Our Vision</h2>
           </div>
-          <p className="text-gray-700 leading-relaxed text-base">
+          <p className=" leading-relaxed text-base">
             To become the most trusted and widely adopted billing solution for
             small businesses globally, revolutionizing how shop owners manage
             their daily operations and financial tracking.
@@ -112,7 +112,7 @@ const About = () => {
           <div className="p-2 bg-amber-100 rounded-xl">
             <FaStar className="w-6 h-6 text-amber-600" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800">Our Core Values</h2>
+          <h2 className="text-2xl font-bold ">Our Core Values</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5">
@@ -120,8 +120,8 @@ const About = () => {
             <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-3 group-hover:bg-blue-200 transition">
               <SiSimpleanalytics className="w-6 h-6 text-blue-600" />
             </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Simplicity</h3>
-            <p className="text-sm text-gray-500">
+            <h3 className="font-semibold  mb-2">Simplicity</h3>
+            <p className="text-sm ">
               We focus on creating easy-to-use solutions that simplify billing
               and business management for everyone.
             </p>
@@ -131,8 +131,8 @@ const About = () => {
             <div className="w-12 h-12 mx-auto bg-emerald-100 rounded-full flex items-center justify-center mb-3 group-hover:bg-emerald-200 transition">
               <FaLightbulb className="w-6 h-6 text-emerald-600" />
             </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Innovation</h3>
-            <p className="text-sm text-gray-500">
+            <h3 className="font-semibold  mb-2">Innovation</h3>
+            <p className="text-sm ">
               We continuously improve our system with modern features to enhance
               performance and usability.
             </p>
@@ -142,8 +142,8 @@ const About = () => {
             <div className="w-12 h-12 mx-auto bg-purple-100 rounded-full flex items-center justify-center mb-3 group-hover:bg-purple-200 transition">
               <FaHeart className="w-6 h-6 text-purple-600" />
             </div>
-            <h3 className="font-semibold text-gray-800 mb-2">Customer First</h3>
-            <p className="text-sm text-gray-500">
+            <h3 className="font-semibold  mb-2">Customer First</h3>
+            <p className="text-sm ">
               We prioritize the needs of small business owners and aim to
               deliver practical and useful solutions.
             </p>

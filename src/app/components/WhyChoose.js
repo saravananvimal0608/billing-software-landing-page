@@ -14,7 +14,6 @@ const WhyChoose = () => {
   return (
     <div className="bg-primary-color  pb-4">
       <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 gap-10">
-        {/* Left Content */}
         <div className="md:w-1/2 space-y-4">
           <h2 className="bounce-smooth text-3xl md:text-5xl font-bold color-primary">
             Why Choose BillingApp?
@@ -27,7 +26,6 @@ const WhyChoose = () => {
           </p>
         </div>
 
-        {/* Right Image */}
         <div className="md:w-1/2 flex justify-center ">
           <div className="w-full max-w-md aspect-square">
             <Image

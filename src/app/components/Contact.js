@@ -3,6 +3,21 @@ import React, { useState } from "react";
 import image from "../assets/contact.png";
 import Image from "next/image";
 
+
+export const metadata = {
+  title: "Contact Us | Smart Billing App",
+  description:
+    "Get in touch with Smart Billing App team. We help small shops, restaurants, and retail stores with billing software solutions.",
+  keywords: [
+    "contact billing app",
+    "smart billing support",
+    "POS contact",
+    "billing software help",
+  ],
+  authors: [{ name: "Cotechies Team" }],
+};
+
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -17,7 +32,7 @@ const Contact = () => {
     const { name, value } = e.target;
 
     if (name === "phone") {
-      const numericValue = value.replace(/\D/g, ""); // remove non-digits
+      const numericValue = value.replace(/\D/g, "");
       if (numericValue.length <= 10) {
         setFormData({ ...formData, phone: numericValue });
       }
@@ -92,7 +107,6 @@ const Contact = () => {
       className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 sm:px-6 md:px-16 py-10 bg-primary-color"
       id="contact"
     >
-      {/* LEFT SIDE */}
       <div className="space-y-4">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold color-primary">
           How to Get Started?
@@ -113,7 +127,6 @@ const Contact = () => {
         />
       </div>
 
-      {/* RIGHT SIDE FORM */}
       <div className="bg-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl w-full">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
