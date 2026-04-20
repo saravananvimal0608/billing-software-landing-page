@@ -40,7 +40,7 @@ const WhyChoose = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-10">
 
   <div className="flex items-center why-choose-box gap-3">
-   <FaShoppingCart size={50} className="icon-style"/>
+   <FaShoppingCart  className="icon-style"/>
     <div>
       <p className=" font-bold pb-3 color-primary">
         Smart Billing System
@@ -52,7 +52,7 @@ const WhyChoose = () => {
   </div>
 
   <div className="flex items-center why-choose-box gap-3">
-    <FaBoxes size={50} className="icon-style" />
+    <FaBoxes  className="icon-style" />
     <div>
       <p className="color-primary font-bold pb-3">
         Product Management
@@ -64,7 +64,7 @@ const WhyChoose = () => {
   </div>
 
   <div className="flex items-center why-choose-box gap-3">
-    <FaChartLine size={50} className="icon-style"/>
+    <FaChartLine  className="icon-style"/>
     <div>
       <p className="color-primary font-bold pb-3">
         Sales Tracking
@@ -76,7 +76,7 @@ const WhyChoose = () => {
   </div>
 
   <div className="flex items-center why-choose-box gap-3">
-    <FaUserShield size={50} className="icon-style"/>
+    <FaUserShield  className="icon-style"/>
     <div>
       <p className="color-primary font-bold pb-3">
         Role-Based Access
@@ -88,7 +88,7 @@ const WhyChoose = () => {
   </div>
 
   <div className="flex items-center why-choose-box gap-3">
-    <FaHistory size={50} className="icon-style"/>
+    <FaHistory  className="icon-style"/>
     <div>
       <p className="color-primary font-bold pb-3">
         History & Reports
@@ -100,7 +100,7 @@ const WhyChoose = () => {
   </div>
 
   <div className="flex items-center why-choose-box gap-3">
-    <FaCheckCircle size={50} className="icon-style"/>
+    <FaCheckCircle  className="icon-style"/>
     <div>
       <p className="color-primary font-bold pb-3">
         Easy to Use

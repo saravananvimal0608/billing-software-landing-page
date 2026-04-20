@@ -30,6 +30,7 @@ html {
     height: 50px;
     padding: 10px;
     display: flex;
+    font-size: 28px;
 }
 
 .login-btn {
