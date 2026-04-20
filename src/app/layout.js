@@ -29,6 +29,9 @@ export const metadata = {
    icons: {
     icon: "/icon.jpeg",
   },
+    verification: {
+    google: "0a915667c990b82d",
+  },
   authors: [{ name: "Cotechies Team" }],
 };
 
